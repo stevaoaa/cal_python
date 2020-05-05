@@ -13,8 +13,8 @@ This project features a Python version of the unix Cal utility. Additionally, we
 Getting started:
 
 	sudo apt install python3-venv	
-	cd mutation_demo
-	python3 -m venv /mutation_demo/venv
+	cd cal_python
+	python3 -m venv /cal_python/venv
 	source venv/bin/activate
 	pip install -r requirements.txt
 
@@ -30,7 +30,7 @@ Getting started:
 	pytest -vv  cal.py  --cov=cal	--cov-branch
 
 	#run tests with mutmut
-	mutmut run --paths-to-mutate= .. /mutmut_demo/cal.py
+	mutmut run --paths-to-mutate= .. /cal_python/cal.py
 
 ## Contributors
 
