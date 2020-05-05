@@ -24,10 +24,10 @@ Getting started:
 	pytest -vv  cal.py 
 	
 	#perform tests with line (node) coverage report
-	pytest -vv  cal.py  	 --cov=cal
+	pytest -vv  test_cal.py  --cov=cal
 
 	# perform tests with branch coverage report
-	pytest -vv  cal.py  --cov=cal	--cov-branch
+	pytest -vv  test_cal.py  --cov=cal  --cov-branch  --cov-report html
 
 	#run tests with mutmut
 	mutmut run --paths-to-mutate= .. /cal_python/cal.py
